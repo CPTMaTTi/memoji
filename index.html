@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Memoji</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <script scr="script.js"></script>
-    <heard>Memoji</heard>
-    <main>
+    <header>Memoji</header>
+    <main class="cards">
         <div class="card"></div>
         <div class="card"></div>
         <div class="card"></div>
@@ -23,5 +23,21 @@
         <div class="card"></div>
         <div class="card"></div>
     </main>
+    <div class="alert invisible">
+        <div class='alert_window'>
+            <div class="alert__content">
+                <div class='alert__message lose invisible'>
+                    <span>Game over 👉👈</span>
+                </div>
+                <div class='alert__message win invisible'>
+                    <span>🌈Win!🌈</span>
+                </div>
+                <button class='alert__button'>🌸Play again🌸</button>
+            </div>
+        </div>
+    </div>
+    <div class='timer'></div>
+    <script src="script.js"></script>
 </body>
+
 </html>
